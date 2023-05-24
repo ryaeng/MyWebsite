@@ -1,0 +1,41 @@
+body {
+  background-color: #6190ff;
+  margin: 0;
+}
+
+.border {
+  border-top: solid #000 1px;
+  border-bottom: solid #000 1px;
+}
+
+.center {
+  width: 500px;
+  margin: auto;
+}
+
+h2,
+.center-text {
+  text-align: center;
+}
+
+.font {
+  font-family: cursive;
+  font-size: 40px
+}
+
+.margin {
+  margin: 8px;
+}
+
+.padding {
+  padding: 20px;
+}
+
+#contact {
+  padding-bottom: 40px
+}
+
+header, footer {
+  background-color: #120c5f;
+  color: #6190ff;
+}
