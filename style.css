@@ -1,32 +1,28 @@
 body {
   background-color: #6190ff;
   margin: 0;
+  padding: 0;
 }
 
-.border {
-  border-top: solid #000 1px;
-  border-bottom: solid #000 1px;
-}
-
+/* center class applied to main element */
 .center {
   width: 500px;
   margin: auto;
 }
 
+/* center-text class applied to header & footer elements */
 h2,
 .center-text {
   text-align: center;
 }
 
+/* font class applied to h1 */
 .font {
   font-family: cursive;
   font-size: 40px
 }
 
-.margin {
-  margin: 8px;
-}
-
+/* padding class applied to header, main, section, & footer elements */
 .padding {
   padding: 20px;
 }
@@ -39,3 +35,12 @@ header, footer {
   background-color: #120c5f;
   color: #6190ff;
 }
+
+hr {
+  border-color: #000;
+}
+
+a:link {color: red}
+a:visited {color: green}
+a:hover {color: pink}
+a:active {color: orange}
