@@ -6,7 +6,7 @@ body {
 
 /* center class applied to main element */
 .center {
-  width: 500px;
+  width: 450px;
   margin: auto;
 }
 
@@ -28,10 +28,11 @@ h2,
 }
 
 #contact {
-  padding-bottom: 40px
+  padding-bottom: 20px
 }
 
-header, footer {
+header,
+footer {
   background-color: #120c5f;
   color: #6190ff;
 }
@@ -40,7 +41,22 @@ hr {
   border-color: #000;
 }
 
-a:link {color: red}
-a:visited {color: green}
-a:hover {color: pink}
-a:active {color: orange}
+a:link {
+  color: red
+}
+
+a:visited {
+  color: green
+}
+
+a:hover {
+  color: pink
+}
+
+a:active {
+  color: orange
+}
+
+.footer-height {
+  height: 25px;
+}
